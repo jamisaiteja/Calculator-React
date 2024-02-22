@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: sans-serif; 
+    
+}
+.main{
+    height:100vh;
+    background-color: #ecf0f3;
+}
+
+.calc-container{
+    background-color: #000;
+    /* padding: 16px; */
+    border-radius: 16px;
+    border: 6px solid #7c7a7a;
+    box-shadow: inset -3px -3px 13px #7c7a7a,
+                inset 3px 3px 13px #171717;
+}
+
+/* .row{
+    box-shadow: 6px 6px 13px #ffffff;
+    border-radius: 28px;
+    padding: 16px;
+} */
+
+h1{
+    font-size:48px;
+    font-family: "Roboto";
+    font-weight: 700;
+    color: #e57070;
+}
+
+
+
+button{
+    /* padding:20px; */
+    margin: 0px 10px;
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+    box-shadow: inset -6px -6px 13px #a91b1b,
+                inset 6px 6px 13px #a24343;
+    background-color: #a91b1b;
+    color: #babec2;
+    border: 1px solid #4a4a4a;
+    font-size: 20px;
+    outline: none;
+}
+
+.zero{
+    width:140px;
+    height:60px;
+    border-radius:40px;
+}
+
+input{
+    width: 100%;
+    border: none;
+    color:#ecf0f3;
+    background-color: #4a4a4a;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 0 5px;
+    font-size: 23px;
+    text-align:right;
+    box-shadow: inset -6px -6px 13px #7c7a7a,
+                inset 6px 6px 13px #171717;
+}
